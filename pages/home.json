@@ -1,0 +1,1356 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "classList": [],
+          "expressions": [],
+          "layout": {
+            "cell": {
+              "growFactor": 0,
+              "mainSize": "auto",
+              "shrinkFactor": 0,
+              "type": "box-item"
+            }
+          },
+          "name": "navigation",
+          "ownerId": "6af52df5a537e680670c73de",
+          "ownerType": "app",
+          "resourceIdentity": "components/navigation",
+          "type": "custom-component"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "home-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Design & Development"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.14em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Thoughtful digital experiences, made with purpose."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "home-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h1",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "1000px"
+                        },
+                        {
+                          "property": "font-family",
+                          "value": "Georgia, 'Times New Roman', serif"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2.75rem, 6.7vw, 5.5rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.06"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.045em"
+                        },
+                        {
+                          "property": "overflow-wrap",
+                          "value": "anywhere"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "A considered approach to design and development—bringing clarity to complex ideas and care to the details that make digital experiences useful."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "660px"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "1.125rem"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": [
+                            {
+                              "property": "core",
+                              "value": ""
+                            }
+                          ],
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Explore selected work'",
+                              "to": "text"
+                            },
+                            {
+                              "expression": "{type: 'state', state: 'projects', parameters: {}}",
+                              "to": "link"
+                            },
+                            {
+                              "expression": "'current_window'",
+                              "to": "openIn"
+                            },
+                            {
+                              "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                              "to": "icon"
+                            },
+                            {
+                              "expression": "'Browse the sample project concepts'",
+                              "to": "tooltip"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "Link",
+                          "nodeName": "bln-link",
+                          "type": "core-component"
+                        },
+                        {
+                          "attributes": [
+                            {
+                              "property": "core",
+                              "value": ""
+                            }
+                          ],
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Get in touch'",
+                              "to": "text"
+                            },
+                            {
+                              "expression": "{type: 'state', state: 'contact', parameters: {}}",
+                              "to": "link"
+                            },
+                            {
+                              "expression": "'current_window'",
+                              "to": "openIn"
+                            },
+                            {
+                              "expression": "'Visit the contact page'",
+                              "to": "tooltip"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "Link",
+                          "nodeName": "bln-link",
+                          "type": "core-component"
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Intrinsic action grid reflows without forcing a horizontal button row on narrow screens.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "start",
+                          "columnGap": "24px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 220px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "center",
+                          "rowGap": "12px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div",
+                      "styles": [
+                        {
+                          "property": "width",
+                          "value": "100%"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "540px"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "aria-label",
+                          "value": "Design principles"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "Clarity in the idea."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "font-family",
+                              "value": "Georgia, 'Times New Roman', serif"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "clamp(1.5rem, 3vw, 2rem)"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.3"
+                            },
+                            {
+                              "property": "color",
+                              "value": "#174B46"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "Care in the craft."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "font-family",
+                              "value": "Georgia, 'Times New Roman', serif"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "clamp(1.5rem, 3vw, 2rem)"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.3"
+                            },
+                            {
+                              "property": "color",
+                              "value": "#174B46"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "Purpose in every detail."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "font-family",
+                              "value": "Georgia, 'Times New Roman', serif"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "clamp(1.5rem, 3vw, 2rem)"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.3"
+                            },
+                            {
+                              "property": "color",
+                              "value": "#174B46"
+                            }
+                          ]
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Typography-led art direction, not a fabricated project image or a claim about completed work. Native auto-fit grid stacks the three principles.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "stretch",
+                          "columnGap": "32px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 230px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "stretch",
+                          "rowGap": "24px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div",
+                      "styles": [
+                        {
+                          "property": "width",
+                          "value": "100%"
+                        },
+                        {
+                          "property": "box-sizing",
+                          "value": "border-box"
+                        },
+                        {
+                          "property": "background-color",
+                          "value": "#E6EFEB"
+                        },
+                        {
+                          "property": "border",
+                          "value": "1px solid #D1E0DA"
+                        },
+                        {
+                          "property": "border-radius",
+                          "value": "20px"
+                        },
+                        {
+                          "property": "padding",
+                          "value": "clamp(24px, 4vw, 40px)"
+                        }
+                      ]
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Owner-neutral editorial introduction. Actions are core links with confirmed sibling state names, never root-relative URLs.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "28px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "featured-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Selected explorations"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Ideas taking shape."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "featured-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-family",
+                          "value": "Georgia, 'Times New Roman', serif"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2rem, 4vw, 3rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.15"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.03em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Three sample concepts exploring clearer products, expressive identities, and thoughtful reading experiences. These are imagined directions, not client case studies."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "640px"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Product design'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Northstar Finance'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'An everyday money-planning concept with a calm spending overview, clear budget categories, and plain-language guidance.'",
+                              "to": "description"
+                            },
+                            {
+                              "expression": "'View projects'",
+                              "to": "linkLabel"
+                            },
+                            {
+                              "expression": "'projects'",
+                              "to": "linkDestination"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Brand & digital'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Fieldnotes Studio'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'An identity and website concept for an imagined creative studio, pairing expressive typography with a welcoming inquiry experience.'",
+                              "to": "description"
+                            },
+                            {
+                              "expression": "'View projects'",
+                              "to": "linkLabel"
+                            },
+                            {
+                              "expression": "'projects'",
+                              "to": "linkDestination"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Editorial experience'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Open Air Journal'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'A slow-travel publication concept with generous reading layouts, thoughtful stories, and useful topic browsing for time outdoors.'",
+                              "to": "description"
+                            },
+                            {
+                              "expression": "'View projects'",
+                              "to": "linkLabel"
+                            },
+                            {
+                              "expression": "'projects'",
+                              "to": "linkDestination"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Auto-fit native Bellini grid: cards stretch within their row and stack at narrow widths. Shared card actions deliberately lead to the project gallery rather than nonexistent case-study pages.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "stretch",
+                          "columnGap": "24px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "stretch",
+                          "rowGap": "24px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div"
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "stretch",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "approach-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "About the approach"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Good questions. Clear thinking. Thoughtful making."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "approach-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "760px"
+                        },
+                        {
+                          "property": "font-family",
+                          "value": "Georgia, 'Times New Roman', serif"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2rem, 4vw, 3rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.15"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.03em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Start with what matters, explore the possibilities, and refine with intention. Discover the ideas and working principles behind this portfolio."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "660px"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "'More about the approach'",
+                          "to": "text"
+                        },
+                        {
+                          "expression": "{type: 'state', state: 'about', parameters: {}}",
+                          "to": "link"
+                        },
+                        {
+                          "expression": "'current_window'",
+                          "to": "openIn"
+                        },
+                        {
+                          "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                          "to": "icon"
+                        },
+                        {
+                          "expression": "'Visit the About page'",
+                          "to": "tooltip"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Link",
+                      "nodeName": "bln-link",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section",
+                  "styles": [
+                    {
+                      "property": "border-top",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "padding-top",
+                      "value": "clamp(32px, 5vw, 56px)"
+                    }
+                  ]
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "contact-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Have something in mind?"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Let’s make something meaningful."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "contact-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-family",
+                          "value": "Georgia, 'Times New Roman', serif"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2rem, 4vw, 3rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "700"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.15"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.03em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Every thoughtful experience starts with an idea. Bring a question, a challenge, or a direction you would like to explore."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "600px"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "'Get in touch'",
+                          "to": "text"
+                        },
+                        {
+                          "expression": "{type: 'state', state: 'contact', parameters: {}}",
+                          "to": "link"
+                        },
+                        {
+                          "expression": "'current_window'",
+                          "to": "openIn"
+                        },
+                        {
+                          "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                          "to": "icon"
+                        },
+                        {
+                          "expression": "'Open the contact page and local form preview'",
+                          "to": "tooltip"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Link",
+                      "nodeName": "bln-link",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section",
+                  "styles": [
+                    {
+                      "property": "background-color",
+                      "value": "#FFFFFF"
+                    },
+                    {
+                      "property": "border",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "border-radius",
+                      "value": "20px"
+                    },
+                    {
+                      "property": "padding",
+                      "value": "clamp(24px, 5vw, 56px)"
+                    },
+                    {
+                      "property": "overflow-wrap",
+                      "value": "anywhere"
+                    }
+                  ]
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Portfolio — Design & Development. Considered ideas, thoughtfully made."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.875rem"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.6"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        },
+                        {
+                          "property": "aria-label",
+                          "value": "Footer navigation"
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "'horizontal'",
+                          "to": "orientation"
+                        },
+                        {
+                          "expression": "'left'",
+                          "to": "alignment"
+                        },
+                        {
+                          "expression": "false",
+                          "to": "visible"
+                        },
+                        {
+                          "expression": "[{label: 'Home', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'home', parameters: {}}}, {label: 'Projects', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'projects', parameters: {}}}, {label: 'About', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'about', parameters: {}}}, {label: 'Contact', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'contact', parameters: {}}}]",
+                          "to": "menuItems"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Navigation",
+                      "nodeName": "bln-navigation",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Simple footer navigation uses the core navigation component with its brand hidden. All four destinations are existing bare page states; core responsive and focus behavior is preserved.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "stretch",
+                      "gap": "16px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "footer",
+                  "styles": [
+                    {
+                      "property": "border-top",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "padding-top",
+                      "value": "28px"
+                    }
+                  ]
+                }
+              ],
+              "classList": [],
+              "elementId": "home-content",
+              "layout": {
+                "container": {
+                  "crossAxisAlignment": "stretch",
+                  "gap": "clamp(56px, 8vw, 96px)",
+                  "mainAxisAlignment": "flex-start",
+                  "orientation": "column",
+                  "type": "box"
+                }
+              },
+              "name": "main",
+              "styles": [
+                {
+                  "property": "width",
+                  "value": "100%"
+                },
+                {
+                  "property": "max-width",
+                  "value": "1240px"
+                },
+                {
+                  "property": "margin",
+                  "value": "0 auto"
+                },
+                {
+                  "property": "padding",
+                  "value": "clamp(40px, 7vw, 96px) clamp(20px, 5vw, 56px)"
+                },
+                {
+                  "property": "box-sizing",
+                  "value": "border-box"
+                },
+                {
+                  "property": "color",
+                  "value": "#17252F"
+                }
+              ]
+            }
+          ],
+          "classList": [],
+          "layout": {
+            "cell": {
+              "growFactor": 1,
+              "mainSize": "100%",
+              "shrinkFactor": 1,
+              "type": "box-item"
+            }
+          },
+          "name": "div",
+          "styles": [
+            {
+              "property": "min-width",
+              "value": "0"
+            },
+            {
+              "property": "overflow",
+              "value": "auto"
+            },
+            {
+              "property": "background-color",
+              "value": "#FAF8F3"
+            }
+          ]
+        }
+      ],
+      "classList": [],
+      "comments": "Existing page shell: shared responsive navigation above an independently scrollable content area.",
+      "layout": {
+        "container": {
+          "crossAxisAlignment": "stretch",
+          "mainAxisAlignment": "flex-start",
+          "orientation": "column",
+          "type": "box"
+        }
+      },
+      "name": "div",
+      "styles": [
+        {
+          "property": "height",
+          "value": "100%"
+        }
+      ]
+    }
+  ],
+  "description": "## Portfolio Home\nA welcoming portfolio landing page with shared app navigation, an editorial hero, three featured sample concepts, an About teaser, and a contact invitation. Preserves the existing home state and /home route.\n\n### Navigation and content\nEvery internal action uses schema-confirmed LinkState objects targeting the existing bare home, projects, about, or contact page names. Featured shared cards receive linkDestination projects and the honest action label View projects; these concepts are not client case studies. Shared navigation and card components already resolve internal destinations to states and are reused unchanged. No fabricated identity, achievements, testimonials, imagery, or external URLs. Contact remains a local prototype on its existing page.\n\n### Presentation\nBellini box layouts and intrinsic auto-fit grids provide responsive flow without fixed column placements. Supported element visual styles provide warm ivory, ink editorial typography, teal accents, constrained content width, responsive padding, and rounded panels. Core links and navigation retain their built-in keyboard and focus behavior. No utility classes, custom stylesheet, or new page.",
+  "name": "home",
+  "params": {},
+  "type": "page",
+  "url": "/home",
+  "variables": []
+}

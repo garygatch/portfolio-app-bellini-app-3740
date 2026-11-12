@@ -1,0 +1,702 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "classList": [],
+          "expressions": [],
+          "layout": {
+            "cell": {
+              "growFactor": 0,
+              "mainSize": "auto",
+              "shrinkFactor": 0,
+              "type": "box-item"
+            }
+          },
+          "name": "navigation",
+          "ownerId": "6af52df5a537e680670c73de",
+          "ownerType": "app",
+          "resourceIdentity": "components/navigation",
+          "type": "custom-component"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "projects-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Selected work"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Projects"
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "projects-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h1",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2.5rem, 6vw, 4rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.1"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.035em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Four sample concepts exploring clearer products, expressive identities, and thoughtful digital experiences. A starting point for imagining what comes next—not client case studies."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "620px"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "1.1rem"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "20px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "concepts-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Concept explorations"
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "concepts-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "1.35rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.4"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Product design'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Northstar Finance'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'An everyday money-planning concept built around a calm spending overview, clear budget categories, and understandable next steps. The proposed direction favors readable balances and plain-language guidance over dense financial charts.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Brand & digital'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Fieldnotes Studio'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'An identity and website concept for an imagined creative studio. A typographic visual language, simple service descriptions, and a welcoming project inquiry flow would bring the studio’s character into a coherent digital home.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Editorial experience'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Open Air Journal'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'A slow-travel publication concept centered on thoughtful stories and time outdoors. The direction explores generous reading layouts, useful topic browsing, and a clear hierarchy that lets long-form writing take the lead.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Sample concept · Interface design'",
+                              "to": "category"
+                            },
+                            {
+                              "expression": "'Focus Dashboard'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'A workspace concept for choosing daily priorities without adding more noise. A concise task overview, visible project context, and intentional status cues would help people decide what needs attention and what can wait.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "type": "custom-component"
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Intrinsic native grid: auto-fit yields two roomy columns when space permits and a single column on mobile. No fixed placements or imagery. Shared cards supply semantic h3 headings and teal-accented rounded surfaces; actions stay hidden because these are samples, not published case studies.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "stretch",
+                          "columnGap": "28px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 400px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "stretch",
+                          "rowGap": "28px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div"
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "stretch",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "conversation-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "A thoughtful next step"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.1em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Have something in mind?"
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "conversation-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(1.65rem, 4vw, 2.25rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.25"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.02em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Bring an idea, a question, or a challenge. Let’s explore a clear, considered direction together."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "560px"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.75"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "{type: 'state', state: 'contact', parameters: {}}",
+                          "to": "link"
+                        },
+                        {
+                          "expression": "'Start a conversation'",
+                          "to": "text"
+                        },
+                        {
+                          "expression": "'current_window'",
+                          "to": "openIn"
+                        },
+                        {
+                          "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                          "to": "icon"
+                        },
+                        {
+                          "expression": "'Visit the contact page'",
+                          "to": "tooltip"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Link",
+                      "nodeName": "bln-link",
+                      "type": "core-component"
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "{type: 'state', state: 'home', parameters: {}}",
+                          "to": "link"
+                        },
+                        {
+                          "expression": "'Back to Home'",
+                          "to": "text"
+                        },
+                        {
+                          "expression": "'current_window'",
+                          "to": "openIn"
+                        },
+                        {
+                          "expression": "'Return to the portfolio home page'",
+                          "to": "tooltip"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Link",
+                      "nodeName": "bln-link",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Closing invitation uses verified LinkState objects only. Core links retain theme styling, keyboard behavior, and default focus treatment.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "20px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section",
+                  "styles": [
+                    {
+                      "property": "background-color",
+                      "value": "#FFFFFF"
+                    },
+                    {
+                      "property": "border",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "border-radius",
+                      "value": "18px"
+                    },
+                    {
+                      "property": "padding",
+                      "value": "clamp(24px, 4vw, 44px)"
+                    },
+                    {
+                      "property": "overflow-wrap",
+                      "value": "anywhere"
+                    }
+                  ]
+                }
+              ],
+              "classList": [],
+              "elementId": "projects-content",
+              "layout": {
+                "container": {
+                  "crossAxisAlignment": "stretch",
+                  "gap": "56px",
+                  "mainAxisAlignment": "flex-start",
+                  "orientation": "column",
+                  "type": "box"
+                }
+              },
+              "name": "main",
+              "styles": [
+                {
+                  "property": "width",
+                  "value": "100%"
+                },
+                {
+                  "property": "max-width",
+                  "value": "1160px"
+                },
+                {
+                  "property": "margin",
+                  "value": "0 auto"
+                },
+                {
+                  "property": "padding",
+                  "value": "clamp(36px, 6vw, 80px) clamp(20px, 4vw, 48px)"
+                },
+                {
+                  "property": "box-sizing",
+                  "value": "border-box"
+                },
+                {
+                  "property": "color",
+                  "value": "#17252F"
+                }
+              ]
+            }
+          ],
+          "classList": [],
+          "layout": {
+            "cell": {
+              "growFactor": 1,
+              "mainSize": "100%",
+              "shrinkFactor": 1,
+              "type": "box-item"
+            }
+          },
+          "name": "div",
+          "styles": [
+            {
+              "property": "min-width",
+              "value": "0"
+            },
+            {
+              "property": "overflow",
+              "value": "auto"
+            },
+            {
+              "property": "background-color",
+              "value": "#FAF8F3"
+            }
+          ]
+        }
+      ],
+      "classList": [],
+      "comments": "Single shared navigation shell; sibling content scrolls independently and uses the existing portfolio theme.",
+      "layout": {
+        "container": {
+          "crossAxisAlignment": "stretch",
+          "mainAxisAlignment": "flex-start",
+          "orientation": "column",
+          "type": "box"
+        }
+      },
+      "name": "div",
+      "styles": [
+        {
+          "property": "height",
+          "value": "100%"
+        }
+      ]
+    }
+  ],
+  "description": "## Projects\nThe single `/projects` page presents four explicitly illustrative sample concepts—Northstar Finance, Fieldnotes Studio, Open Air Journal, and Focus Dashboard—using reusable app-owned cards in a responsive Bellini grid.\n\nUses shared native navigation and core state links to contact/home, with a modern warm ivory/ink/teal palette and no external imagery.\n\n**Before a production portfolio launch:** replace the samples with real case studies and project imagery.",
+  "name": "projects",
+  "params": {},
+  "type": "page",
+  "url": "/projects",
+  "variables": []
+}

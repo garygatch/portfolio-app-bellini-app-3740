@@ -1,0 +1,1268 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "classList": [],
+          "expressions": [],
+          "layout": {
+            "cell": {
+              "growFactor": 0,
+              "mainSize": "auto",
+              "shrinkFactor": 0,
+              "type": "box-item"
+            }
+          },
+          "name": "navigation",
+          "ownerId": "6af52df5a537e680670c73de",
+          "ownerType": "app",
+          "resourceIdentity": "components/navigation",
+          "type": "custom-component"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "about-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "A little about me"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Thoughtful work, made with curiosity."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "about-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h1",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "880px"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(2.75rem, 7vw, 5rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.06"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.045em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "I enjoy turning thoughtful ideas into clear, useful experiences. This is a short introduction to the person and approach behind the work in this portfolio."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "640px"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "1.125rem"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": [
+                            {
+                              "property": "core",
+                              "value": ""
+                            }
+                          ],
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "{type: 'state', state: 'projects', parameters: {}}",
+                              "to": "link"
+                            },
+                            {
+                              "expression": "'Explore projects'",
+                              "to": "text"
+                            },
+                            {
+                              "expression": "'current_window'",
+                              "to": "openIn"
+                            },
+                            {
+                              "expression": "'Visit the projects page'",
+                              "to": "tooltip"
+                            },
+                            {
+                              "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                              "to": "icon"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "Link",
+                          "nodeName": "bln-link",
+                          "type": "core-component"
+                        },
+                        {
+                          "attributes": [
+                            {
+                              "property": "core",
+                              "value": ""
+                            }
+                          ],
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "{type: 'state', state: 'contact', parameters: {}}",
+                              "to": "link"
+                            },
+                            {
+                              "expression": "'Get in touch'",
+                              "to": "text"
+                            },
+                            {
+                              "expression": "'current_window'",
+                              "to": "openIn"
+                            },
+                            {
+                              "expression": "'Visit the contact page'",
+                              "to": "tooltip"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "Link",
+                          "nodeName": "bln-link",
+                          "type": "core-component"
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Intrinsic auto-fit action tracks wrap without fixed columns or CSS flex overrides. Each action retains its native focus indicator.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "start",
+                          "columnGap": "24px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 180px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "center",
+                          "rowGap": "12px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div",
+                      "styles": [
+                        {
+                          "property": "width",
+                          "value": "100%"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "440px"
+                        }
+                      ]
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "background-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "The story so far"
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "color",
+                              "value": "#0F766E"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "0.8rem"
+                            },
+                            {
+                              "property": "font-weight",
+                              "value": "600"
+                            },
+                            {
+                              "property": "letter-spacing",
+                              "value": "0.1em"
+                            },
+                            {
+                              "property": "text-transform",
+                              "value": "uppercase"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "A background shaped by exploration"
+                            }
+                          ],
+                          "classList": [],
+                          "elementId": "background-heading",
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "h2",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "clamp(1.6rem, 3vw, 2.1rem)"
+                            },
+                            {
+                              "property": "font-weight",
+                              "value": "600"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.25"
+                            },
+                            {
+                              "property": "letter-spacing",
+                              "value": "-0.025em"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "My path is an ongoing process of learning, making, and refining ideas. I’m drawn to work that balances imagination with practical thinking, and I value the small discoveries that help a project find its direction."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "max-width",
+                              "value": "60ch"
+                            },
+                            {
+                              "property": "color",
+                              "value": "#52636B"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.8"
+                            }
+                          ]
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "grid-item"
+                        },
+                        "container": {
+                          "crossAxisAlignment": "flex-start",
+                          "gap": "18px",
+                          "mainAxisAlignment": "flex-start",
+                          "orientation": "column",
+                          "type": "box"
+                        }
+                      },
+                      "name": "div",
+                      "styles": [
+                        {
+                          "property": "background-color",
+                          "value": "#FFFFFF"
+                        },
+                        {
+                          "property": "border",
+                          "value": "1px solid #DCE4DF"
+                        },
+                        {
+                          "property": "border-radius",
+                          "value": "18px"
+                        },
+                        {
+                          "property": "padding",
+                          "value": "clamp(24px, 4vw, 40px)"
+                        },
+                        {
+                          "property": "min-width",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "An approach, not a formula"
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "0.8rem"
+                            },
+                            {
+                              "property": "font-weight",
+                              "value": "600"
+                            },
+                            {
+                              "property": "letter-spacing",
+                              "value": "0.12em"
+                            },
+                            {
+                              "property": "text-transform",
+                              "value": "uppercase"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "Stay curious. Find clarity. Make with care."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "max-width",
+                              "value": "20ch"
+                            },
+                            {
+                              "property": "font-size",
+                              "value": "clamp(1.8rem, 4vw, 2.6rem)"
+                            },
+                            {
+                              "property": "font-weight",
+                              "value": "500"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.25"
+                            },
+                            {
+                              "property": "letter-spacing",
+                              "value": "-0.025em"
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "evaluate": false,
+                              "name": "text",
+                              "textContent": "A little space to explore can lead to a more considered next step."
+                            }
+                          ],
+                          "classList": [],
+                          "layout": {
+                            "cell": {
+                              "type": "box-item"
+                            }
+                          },
+                          "name": "p",
+                          "styles": [
+                            {
+                              "property": "margin",
+                              "value": "0"
+                            },
+                            {
+                              "property": "max-width",
+                              "value": "42ch"
+                            },
+                            {
+                              "property": "line-height",
+                              "value": "1.75"
+                            }
+                          ]
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "grid-item"
+                        },
+                        "container": {
+                          "crossAxisAlignment": "flex-start",
+                          "gap": "20px",
+                          "mainAxisAlignment": "center",
+                          "orientation": "column",
+                          "type": "box"
+                        }
+                      },
+                      "name": "div",
+                      "styles": [
+                        {
+                          "property": "background-color",
+                          "value": "#E6F2EF"
+                        },
+                        {
+                          "property": "border",
+                          "value": "1px solid #C8DED7"
+                        },
+                        {
+                          "property": "border-radius",
+                          "value": "18px"
+                        },
+                        {
+                          "property": "padding",
+                          "value": "clamp(28px, 4vw, 44px)"
+                        },
+                        {
+                          "property": "min-width",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#164E48"
+                        }
+                      ]
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Background copy remains neutral and editable. The adjacent color panel is real text, not an image placeholder or invented portrait.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "columnAxisAlignment": "stretch",
+                      "columnGap": "28px",
+                      "columns": [
+                        {
+                          "type": "other",
+                          "value": "repeat(auto-fit, minmax(min(100%, 340px), 1fr))"
+                        }
+                      ],
+                      "rowAxisAlignment": "stretch",
+                      "rowGap": "28px",
+                      "rows": [
+                        {
+                          "type": "other",
+                          "value": "auto"
+                        }
+                      ],
+                      "type": "grid"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "strengths-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "How I work"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Strengths & skills"
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "strengths-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(1.8rem, 4vw, 2.5rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.2"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.025em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Curiosity'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'Asking useful questions and exploring possibilities before settling on a direction.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "styles": [
+                            {
+                              "property": "min-width",
+                              "value": "0"
+                            }
+                          ],
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Clear communication'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'Making ideas understandable, considered, and easy to act on.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "styles": [
+                            {
+                              "property": "min-width",
+                              "value": "0"
+                            }
+                          ],
+                          "type": "custom-component"
+                        },
+                        {
+                          "children": [],
+                          "classList": [],
+                          "expressions": [
+                            {
+                              "expression": "'Thoughtful craft'",
+                              "to": "title"
+                            },
+                            {
+                              "expression": "'Paying attention to the details while keeping the bigger experience in view.'",
+                              "to": "description"
+                            }
+                          ],
+                          "layout": {
+                            "cell": {
+                              "type": "grid-item"
+                            }
+                          },
+                          "name": "card",
+                          "ownerId": "6af52df5a537e680670c73de",
+                          "ownerType": "app",
+                          "resourceIdentity": "components/card",
+                          "styles": [
+                            {
+                              "property": "min-width",
+                              "value": "0"
+                            }
+                          ],
+                          "type": "custom-component"
+                        }
+                      ],
+                      "classList": [],
+                      "comments": "Auto-fit chooses the number of skill columns from available width; no forced three-column placement. Reuses the app cards with imagery and actions omitted.",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        },
+                        "container": {
+                          "columnAxisAlignment": "stretch",
+                          "columnGap": "24px",
+                          "columns": [
+                            {
+                              "type": "other",
+                              "value": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))"
+                            }
+                          ],
+                          "rowAxisAlignment": "stretch",
+                          "rowGap": "24px",
+                          "rows": [
+                            {
+                              "type": "other",
+                              "value": "auto"
+                            }
+                          ],
+                          "type": "grid"
+                        }
+                      },
+                      "name": "div"
+                    }
+                  ],
+                  "classList": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "stretch",
+                      "gap": "24px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section"
+                },
+                {
+                  "attributes": [
+                    {
+                      "property": "aria-labelledby",
+                      "value": "about-cta-heading"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "A thoughtful next step"
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#0F766E"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.8rem"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "0.12em"
+                        },
+                        {
+                          "property": "text-transform",
+                          "value": "uppercase"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Good work starts with a conversation."
+                        }
+                      ],
+                      "classList": [],
+                      "elementId": "about-cta-heading",
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "h2",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "26ch"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "clamp(1.8rem, 4vw, 2.75rem)"
+                        },
+                        {
+                          "property": "font-weight",
+                          "value": "600"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.2"
+                        },
+                        {
+                          "property": "letter-spacing",
+                          "value": "-0.03em"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Have an idea, a question, or a challenge in mind? Let’s explore what a clear, considered direction could look like."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "max-width",
+                          "value": "58ch"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.8"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "{type: 'state', state: 'contact', parameters: {}}",
+                          "to": "link"
+                        },
+                        {
+                          "expression": "'Get in touch'",
+                          "to": "text"
+                        },
+                        {
+                          "expression": "'current_window'",
+                          "to": "openIn"
+                        },
+                        {
+                          "expression": "'Visit the contact page'",
+                          "to": "tooltip"
+                        },
+                        {
+                          "expression": "{type: 'font-icon', style: 'solid', name: 'arrow-right', position: 'right'}",
+                          "to": "icon"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Link",
+                      "nodeName": "bln-link",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Closing invitation uses a verified core state link with a verified Font Awesome v5 icon. No outcome, availability, or delivery claims.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "flex-start",
+                      "gap": "20px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "section",
+                  "styles": [
+                    {
+                      "property": "background-color",
+                      "value": "#FFFFFF"
+                    },
+                    {
+                      "property": "border",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "border-radius",
+                      "value": "18px"
+                    },
+                    {
+                      "property": "padding",
+                      "value": "clamp(28px, 5vw, 48px)"
+                    }
+                  ]
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "evaluate": false,
+                          "name": "text",
+                          "textContent": "Portfolio · Ideas, exploration, and thoughtful work."
+                        }
+                      ],
+                      "classList": [],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "p",
+                      "styles": [
+                        {
+                          "property": "margin",
+                          "value": "0"
+                        },
+                        {
+                          "property": "color",
+                          "value": "#52636B"
+                        },
+                        {
+                          "property": "font-size",
+                          "value": "0.875rem"
+                        },
+                        {
+                          "property": "line-height",
+                          "value": "1.6"
+                        }
+                      ]
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "property": "core",
+                          "value": ""
+                        },
+                        {
+                          "property": "aria-label",
+                          "value": "Footer navigation"
+                        }
+                      ],
+                      "children": [],
+                      "classList": [],
+                      "expressions": [
+                        {
+                          "expression": "'horizontal'",
+                          "to": "orientation"
+                        },
+                        {
+                          "expression": "'left'",
+                          "to": "alignment"
+                        },
+                        {
+                          "expression": "false",
+                          "to": "visible"
+                        },
+                        {
+                          "expression": "[{label: 'Home', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'home', parameters: {}}}, {label: 'Projects', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'projects', parameters: {}}}, {label: 'Contact', evaluateLabel: false, onClick: 'link', openIn: 'current-window', link: {type: 'state', state: 'contact', parameters: {}}}]",
+                          "to": "menuItems"
+                        }
+                      ],
+                      "layout": {
+                        "cell": {
+                          "type": "box-item"
+                        }
+                      },
+                      "name": "Navigation",
+                      "nodeName": "bln-navigation",
+                      "type": "core-component"
+                    }
+                  ],
+                  "classList": [],
+                  "comments": "Understated footer with native responsive navigation rather than a handcrafted link menu. Default focus and collapse behavior are preserved.",
+                  "layout": {
+                    "cell": {
+                      "type": "box-item"
+                    },
+                    "container": {
+                      "crossAxisAlignment": "stretch",
+                      "gap": "16px",
+                      "mainAxisAlignment": "flex-start",
+                      "orientation": "column",
+                      "type": "box"
+                    }
+                  },
+                  "name": "footer",
+                  "styles": [
+                    {
+                      "property": "border-top",
+                      "value": "1px solid #DCE4DF"
+                    },
+                    {
+                      "property": "padding-top",
+                      "value": "24px"
+                    }
+                  ]
+                }
+              ],
+              "classList": [],
+              "elementId": "about-content",
+              "layout": {
+                "container": {
+                  "crossAxisAlignment": "stretch",
+                  "gap": "56px",
+                  "mainAxisAlignment": "flex-start",
+                  "orientation": "column",
+                  "type": "box"
+                }
+              },
+              "name": "main",
+              "styles": [
+                {
+                  "property": "width",
+                  "value": "100%"
+                },
+                {
+                  "property": "max-width",
+                  "value": "1160px"
+                },
+                {
+                  "property": "margin",
+                  "value": "0 auto"
+                },
+                {
+                  "property": "padding",
+                  "value": "clamp(36px, 6vw, 80px) clamp(20px, 4vw, 48px)"
+                },
+                {
+                  "property": "box-sizing",
+                  "value": "border-box"
+                },
+                {
+                  "property": "color",
+                  "value": "#17252F"
+                },
+                {
+                  "property": "overflow-wrap",
+                  "value": "anywhere"
+                }
+              ]
+            }
+          ],
+          "classList": [],
+          "layout": {
+            "cell": {
+              "growFactor": 1,
+              "mainSize": "100%",
+              "shrinkFactor": 1,
+              "type": "box-item"
+            }
+          },
+          "name": "div",
+          "styles": [
+            {
+              "property": "min-width",
+              "value": "0"
+            },
+            {
+              "property": "min-height",
+              "value": "0"
+            },
+            {
+              "property": "overflow",
+              "value": "auto"
+            },
+            {
+              "property": "background-color",
+              "value": "#FAF8F3"
+            }
+          ]
+        }
+      ],
+      "classList": [],
+      "comments": "Shared navigation and independently scrollable content; native box sizing permits the content area to shrink.",
+      "layout": {
+        "container": {
+          "crossAxisAlignment": "stretch",
+          "mainAxisAlignment": "flex-start",
+          "orientation": "column",
+          "type": "box"
+        }
+      },
+      "name": "div",
+      "styles": [
+        {
+          "property": "height",
+          "value": "100%"
+        }
+      ]
+    }
+  ],
+  "description": "## About\nIntroduces the portfolio owner’s approach and background, summarizes strengths and skills, and links to Projects and Contact. Copy remains directly editable in the page; no credentials or biographical claims have been added.\n\nUses the shared navigation and card components, Bellini intrinsic auto-fitting grids, and supported visual styles without utility classes or custom CSS. A text-only color panel replaces imagery; no asset sources are assumed. Core actions and footer navigation use verified state links to bare sibling page names. Native keyboard focus remains intact.",
+  "name": "about",
+  "params": {},
+  "type": "page",
+  "url": "/about",
+  "variables": []
+}
